@@ -18,7 +18,7 @@ services:
     restart: always
     environment:
       POSTGRES_USER: sentry
-      POSTGRES_PASSWORD: 89PsZXyRStOT2
+      POSTGRES_PASSWORD: PASSWORD_FROM_VARIABLE
       POSTGRES_DB: sentry
     networks:
       - sentry
